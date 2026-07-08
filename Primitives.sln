@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{734DCB38-E250-4672-902E-30F65A75CAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "src\Models\Models.csproj", "{77B88BFA-6DE7-4AA6-86A0-98425E324FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediators", "src\Mediators\Mediators.csproj", "{30CC66EE-EEF2-4081-BCF4-C63DAE422C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77B88BFA-6DE7-4AA6-86A0-98425E324FA1} = {734DCB38-E250-4672-902E-30F65A75CAF2}
+		{30CC66EE-EEF2-4081-BCF4-C63DAE422C99} = {734DCB38-E250-4672-902E-30F65A75CAF2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B88BFA-6DE7-4AA6-86A0-98425E324FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B88BFA-6DE7-4AA6-86A0-98425E324FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B88BFA-6DE7-4AA6-86A0-98425E324FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B88BFA-6DE7-4AA6-86A0-98425E324FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CC66EE-EEF2-4081-BCF4-C63DAE422C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CC66EE-EEF2-4081-BCF4-C63DAE422C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CC66EE-EEF2-4081-BCF4-C63DAE422C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CC66EE-EEF2-4081-BCF4-C63DAE422C99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
